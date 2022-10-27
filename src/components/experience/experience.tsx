@@ -1,7 +1,6 @@
 import { FC } from "react";
 import "./experience.css";
 import { MdOutlineLibraryAddCheck } from "react-icons/md";
-import Picture from "./photo3.jpg";
 import AnimatedPage from "../animate/animatepage";
 
 const Experience: FC = () => {

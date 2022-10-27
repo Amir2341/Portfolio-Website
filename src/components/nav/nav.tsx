@@ -8,7 +8,6 @@ import {
 } from "react-icons/ai";
 import { Link } from "react-router-dom";
 import { useState } from "react";
-import style from "styled-components";
 import { TiSpanner } from "react-icons/ti";
 
 const Nav: FC = () => {

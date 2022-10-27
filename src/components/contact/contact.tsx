@@ -3,7 +3,6 @@ import "./contact.css";
 import { MdOutlineEmail } from "react-icons/md";
 import { BsLinkedin } from "react-icons/bs";
 import { FaGithubSquare } from "react-icons/fa";
-import { AiOutlinePhone } from "react-icons/ai";
 import React, { useRef } from "react";
 import emailjs from "emailjs-com";
 import { motion } from "framer-motion";
