@@ -14,7 +14,10 @@ const Experience: FC = () => {
         <div className="container about__container">
           <div className="about__me">
             <div className="about__me-image">
-              <img src={Picture} alt="me"></img>
+              <img
+                src="https://browserstack.wpenginepowered.com/wp-content/uploads/2019/07/best-test-automation-frameworks@2x.png"
+                alt="moon"
+              ></img>
             </div>
           </div>
           <div className="about__content">

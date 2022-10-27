@@ -42,8 +42,8 @@ const data: IProject["data"] = [
     id: 4,
     image: IMG4,
     title: "Portfolio Website",
-    github: "",
-    demo: "",
+    github: "https://github.com/Amir2341/Portfolio-Website",
+    demo: "https://www.amirsportfolio.com/",
   },
 ];
 
