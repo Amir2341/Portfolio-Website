@@ -50,11 +50,6 @@ const Contact: FC = () => {
               </a>
             </article>
             <article className="contact__option">
-              <AiOutlinePhone className="contact__option-icon" />
-              <h4>Phone Number</h4>
-              <h5>+44 7521 557791</h5>
-            </article>
-            <article className="contact__option">
               <BsLinkedin className="contact__option-icon" />
               <h4>LinkedIn</h4>
               <h5>Amir Rafiq</h5>
