@@ -24,7 +24,7 @@ const Experience: FC = () => {
               <article className="about__card">
                 <MdOutlineLibraryAddCheck className="about__icon" />
                 <h5>Projects</h5>
-                <small>4 Projects Completed</small>
+                <small>6 Projects Completed</small>
               </article>
             </div>
             <p>

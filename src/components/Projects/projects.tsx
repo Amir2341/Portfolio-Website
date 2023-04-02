@@ -4,6 +4,8 @@ import IMG1 from "../../assets/portfolio7.jpg";
 import IMG2 from "../../assets/portfolio8.jpg";
 import IMG3 from "../../assets/portfolio9.jpg";
 import IMG4 from "../../assets/portfolio10.jpg";
+import IMG5 from "../../assets/restaurant.jpg";
+import IMG6 from "../../assets/restaurantbackend.jpg";
 import AnimatedPage from "../animate/animatepage";
 
 interface IProject {
@@ -44,6 +46,20 @@ const data: IProject["data"] = [
     title: "Portfolio Website",
     github: "https://github.com/Amir2341/Portfolio-Website",
     demo: "https://www.amirsportfolio.com/",
+  },
+  {
+    id: 5,
+    image: IMG5,
+    title: "Restaurant Ecommerce Website",
+    github: "https://github.com/Amir2341/ecommercerestaurantfrontend",
+    demo: "https://stackburger.netlify.app/",
+  },
+  {
+    id: 6,
+    image: IMG6,
+    title: "restaurant API",
+    github: "https://github.com/Amir2341/ecommercerestaurant",
+    demo: "https://restaurantmenu.cyclic.app/menu",
   },
 ];
 

@@ -1,11 +1,21 @@
 import { FC } from "react";
 import "./about.css";
 import { IoLogoJavascript } from "react-icons/io";
-import { SiTypescript, SiPostgresql, SiFirebase, SiJest } from "react-icons/si";
+import {
+  SiTypescript,
+  SiPostgresql,
+  SiFirebase,
+  SiJest,
+  SiNextdotjs,
+  SiTailwindcss,
+  SiMongodb,
+  SiRedux,
+} from "react-icons/si";
 import { IoLogoReact, IoLogoCss3 } from "react-icons/io5";
 import { TbBrandReactNative } from "react-icons/tb";
 import { AiOutlineHtml5 } from "react-icons/ai";
 import { FaNodeJs } from "react-icons/fa";
+import { MdOutlineSchema } from "react-icons/md";
 import AnimatedPage from "../animate/animatepage";
 
 const About: FC = () => {
@@ -43,6 +53,18 @@ const About: FC = () => {
                 </div>
               </article>
               <article className="experience__details">
+                <SiNextdotjs className="experience__details-icon" />
+                <div>
+                  <h4>Next.js</h4>
+                </div>
+              </article>
+              <article className="experience__details">
+                <SiRedux className="experience__details-icon" />
+                <div>
+                  <h4>Redux</h4>
+                </div>
+              </article>
+              <article className="experience__details">
                 <AiOutlineHtml5 className="experience__details-icon" />
                 <div>
                   <h4>HTML</h4>
@@ -52,6 +74,12 @@ const About: FC = () => {
                 <IoLogoCss3 className="experience__details-icon" />
                 <div>
                   <h4>CSS</h4>
+                </div>
+              </article>
+              <article className="experience__details">
+                <SiTailwindcss className="experience__details-icon" />
+                <div>
+                  <h4>Tailwind</h4>
                 </div>
               </article>
             </div>
@@ -75,6 +103,18 @@ const About: FC = () => {
                 <SiPostgresql className="experience__details-icon" />
                 <div>
                   <h4>PostgreSQL</h4>
+                </div>
+              </article>
+              <article className="experience__details">
+                <SiMongodb className="experience__details-icon" />
+                <div>
+                  <h4>MongoDB</h4>
+                </div>
+              </article>
+              <article className="experience__details">
+                <MdOutlineSchema className="experience__details-icon" />
+                <div>
+                  <h4>Mongoose</h4>
                 </div>
               </article>
               <article className="experience__details">

@@ -35,7 +35,7 @@ const Header: FC = () => {
             transition={{ delay: 1.5 }}
             className="text-light"
           >
-            Junior Software Developer
+            Software Developer
           </motion.h5>
           <HeaderSocials />
 
